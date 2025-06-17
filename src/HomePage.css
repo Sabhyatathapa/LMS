@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  color: #3f3f3f;
+}
+section {
+  margin: 3rem;
+}
+header {
+  background-color: #03045e;
+  color: #caf0f8;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 1 200px;
+  gap: 80rem;
+  padding: 0.5rem;
+}
+.nav-logo {
+  padding-left: 2rem;
+}
+.nav-login ul {
+  list-style: none;
+  display: inline-block;
+}
+.nav-login li {
+  display: inline-block;
+}
+.nav-login li button {
+  padding: 1rem;
+  border-radius: 30px;
+  justify-content: space-around;
+}
+.nav-login li button:hover {
+  background-color: #caf0f8;
+}
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+.hero h4 {
+  padding: 0.5rem;
+}
+.hero-img img {
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+/* Keyframes for floating animation */
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(9px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Features */
+
+h2,
+h5 {
+  text-align: center;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.4);
+  border-radius: 16px;
+  max-width: 500px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(208, 0, 197, 0.6);
+}
+
+.feat-icon img {
+  margin-bottom: 1rem;
+}
+
+.description h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.description p,
+.description ul {
+  font-size: 0.95rem;
+  color: #555;
+  text-align: justify;
+}
+
+.description ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+/* Features */
+
+/* Roles */
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card-role {
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.4);
+  border-radius: 16px;
+  width: 300px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-role:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(208, 0, 197, 0.6);
+}
+
+/* Roles */
+
+/* <---Footer--> */
+.footer {
+  justify-content: center;
+  background-color: #03045e;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1rem;
+}
+.foot {
+  padding: 2rem;
+  text-align: center;
+}
+.foot a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #ffffff;
+}
+.foot a:hover {
+  color: #caf0f8;
+}
+
+.copyright {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.copyright a {
+  text-decoration: none;
+  color: #caf0f8;
+}
+/* <---Footer--> */
